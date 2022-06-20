@@ -1,0 +1,89 @@
+.authSection {
+    /* position: relative; */
+    min-height: 100vh;
+    background-color: rgb(229, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fpassword {
+    font-size: 13px;
+    color: #007ac6;
+}
+
+.authContainer {
+    padding: 20px;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: #000 2px solid; */
+}
+
+.loginLogo {
+    /* border: #007ac6 2px solid; */
+    padding: 20px 100px;
+}
+
+.authContainer form label input {
+    padding: 10px;
+    width: calc(100% - 30px);
+    border: 1px solid #0000003e;
+    font-size: 13px;
+}
+
+.authContainer form {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.5);
+}
+
+.authContainer form label :nth-child(4) h4,
+.authContainer form label :nth-child(1) h4,
+.authContainer form label :nth-child(2) h4,
+.authContainer form label :nth-child(3) h4{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.authContainer form label:nth-child(5){
+    display: flex;
+}
+
+.authBtn{
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: #009dff;
+    border: solid 1px #009dff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 13px;
+    font-weight: 500;
+}
+#check{
+    width: 15px;
+}
+.authBtn:hover{
+    background-color: #018ce3;
+}
+
+.handleSwitchBtn{
+    background-color: transparent;
+    color: #007ac6;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
